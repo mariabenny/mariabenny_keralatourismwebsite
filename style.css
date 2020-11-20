@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Nunito",sans-serif;
+}
+
+.navbar{
+    background-image: linear-gradient(-90deg,#e91e63,#ffca28);
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    font-weight: 600;
+    color: white;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: #ffff!important;
+    font-weight: 500;
+}
+
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.menubar.navbar-toggler{
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+
+.navbar .fa{
+    color: #fff!important;
+    font-size: 26px;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid #ffff;
+}
+
+.navbar-brand img{
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+h3{
+    font-weight: 600;
+    color: red;
+}
+.sidebar{
+    /* margin-top: 10%; */
+    position: absolute; 
+    left: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    z-index: 2;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20%;
+} 
+
+.form-inline .form-control:hover{
+    border: 1px solid white;
+    color:orange;
+    caret-color:#e91e63;
+}
+
+
+.form-inline .btn{
+    color:#e91e63 ;
+    border:whitesmoke;
+    background-color: orange;
+    }
+
+.form-inline .btn:hover{
+    color: orange;
+    background-color:white;
+    font-weight: 600;
+}
+
+@media only screen  and (max-width:1000px){
+    .nav-link:hover{
+        border-bottom: none!important;
+    }
+}
+
+/* .myMargin{
+    margin: 25px;
+} */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 1%;
+}
+
+footer h6{
+    padding-left: 45%;
+    text-align: centre;
+}
+
+.container{
+    /* border: 2px solid black; */
+    margin-top: 7%;
+}
+.p-box{
+    margin-top: 3%;
+    border: 3px solid white;
+    margin-left: 45%;
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    height: 20em;
+    padding: 20px;
+    color:black;
+    background-color:white;
+    padding-right: 1em;
+    line-height: 1.25em;
+    text-align: center;
+    
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#body_background{
+    background-image: url(images/bg..jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen  and (max-width:100px){
+    .p-box:hover{
+        border-bottom: none!important;
+    }
+}
+#sign_up_footer{
+    position: absolute;
+    bottom: 0.6px;
+    width: 100vw;
+}
+
+.tvm.container{
+    border: 2px solid black;
+}
+
+.t-box{
+    border: 2px solid #e91e63;
+    color:black;
+    width: 25em;
+    float: left;
+    margin-left: 10px;
+    height: 35em;
+    margin-top: 10px;
+    text-align: justify;
+    padding-left: 1em;
+    /* padding-top: 8em; */
+}
+
+.kan.container{
+    border: 2px solid black;
+}
+
+.t-box{
+    border: 2px solid #e91e63;
+    color:black;
+    width: 25em;
+    float: left;
+    margin-left: 10px;
+    height: 40em;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 0.1m;
+    /* padding-top: 8em; */
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 1em;
+    padding-top: 2em;
+}
+
+p{
+    margin-left: 1em;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffca28;
+}
+
+#ind{
+    color: red;
+    font-size: 10px;
+}
